@@ -2,7 +2,7 @@
 The Official OpenRCT2 SDK for BackSeatGamer Integration
 
 ## Setup
-This SDK requires [BackSeatGamer Reverse Proxy](https://github.com/BackSeatGamerCode/ReverseProxy) to be running in `TCP/IP Broadcast` Mode using `JSON` format. By default, port 8080 will be used. In the future, we plan on adding a way for the user to change this if nessisary.
+This SDK requires [BackSeatGamer Reverse Proxy](https://github.com/BackSeatGamerCode/ReverseProxy) to be running in `TCP/IP Broadcast` Mode using `JSON` format. By default, port 29175 will be used. In the future, we plan on adding a way for the user to change this if nessisary.
 
 OpenRCT2 will only run a plugin (what they call mods) if a park is open, so to reload your plugin, simply quit to the main menu, and open a map. As a result, [BackSeatGamer Reverse Proxy](https://github.com/BackSeatGamerCode/ReverseProxy) will fail to establish a connection unless the map is open. If you try to start [BackSeatGamer Reverse Proxy](https://github.com/BackSeatGamerCode/ReverseProxy) and the map is not open, you will be presented with a dialog box informing you a connection could not be established. Simply click `OK` to try again. If everything is successful, you will be presented with the rewards interface.
 
