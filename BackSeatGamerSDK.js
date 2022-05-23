@@ -34,7 +34,7 @@ function main() {
             }
         });
     });
-    server.listen(8080);
+    server.listen(29175);
 }
 
 registerPlugin({
