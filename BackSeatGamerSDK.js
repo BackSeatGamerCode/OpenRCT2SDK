@@ -1,4 +1,4 @@
-var REWARDS = {}
+var REWARDS = {};
 
 function postMessage(message){
     try {
